@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="5" >
+  <test name="Test">
+    <parameter name="firstName" value="fname"/>
+    <parameter name="lastName" value="lname"/>
+    <classes>
+	 <class name="org.automation.HRM.testcases.TC001_Verify_Website_Title"/>
+     <class name="org.automation.HRM.testcases.TC002_Header_Image_URL"/>
+     <class name="org.automation.HRM.testcases.TC003_Login_VerifyHomePage"/>
+  	 <class name="org.automation.HRM.testcases.TC004_Add_New_Employee"/>
+   	 <class name="org.automation.HRM.testcases.TC005_Edit_User_Information"/>
+   	 <class name="org.automation.HRM.testcases.TC006_Verify_Directory_Menu"/>
+     <class name="org.automation.HRM.testcases.TC007_Add_Employee_Qualification"/>
+  	 <class name="org.automation.HRM.testcases.TC008_Applying_for_Leave"/>
+   	 <class name="org.automation.HRM.testcases.TC009_Retrieve_Emergency_Contacts"/>
+  	</classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
