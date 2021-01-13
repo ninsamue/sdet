@@ -49,7 +49,7 @@ public class Chrome_Activity_1 {
 	 
 	 @Test(priority=0)
 	 public void todoTasks() throws InterruptedException {
-		 driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		 driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		 wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//android.view.View")));
 	
 		 //Scroll to find the To-Do List card and click it.
@@ -79,7 +79,7 @@ public class Chrome_Activity_1 {
 			driver.findElementByXPath("//android.widget.EditText").sendKeys(task);
 			driver.findElementByXPath("//android.widget.Button[@text='Add Task']").click();
 			Reporter.log(task+" Task is entered |");
-			
+			wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//android.view.View[@resource-id='tasksList']//android.view.View[@text='"+task+"']")));
 	 }
 	 
 	 @Test(priority=2)
@@ -103,7 +103,7 @@ public class Chrome_Activity_1 {
 	 public void clearTasks() {
 		 driver.findElementByXPath("//android.view.View[contains(@text,'Clear List')]").click();
 		 Reporter.log("Clear List Button is clicked | ");
-
+		
 	 }
 	 
 	 @Test(priority=5)
