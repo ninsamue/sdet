@@ -1,0 +1,2059 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Login into the CRM Site",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 11801000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I navigate to Alchemy CRM site and login to the application",
+            "match": {
+              "location": "stepDefinitions.TC_01_CRM_Counting_Dashlets.i_navigate_to_alchemy_crm_site_and_login_to_the_application()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-22T09:45:02.540Z",
+        "line": 9,
+        "name": "Counting Dashlets",
+        "description": "",
+        "id": "crm-site;counting-dashlets",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 28000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Count the Dashlets and Print",
+            "match": {
+              "location": "stepDefinitions.TC_01_CRM_Counting_Dashlets.count_the_dashlets_and_print()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1604000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Close the Browser",
+            "match": {
+              "location": "stepDefinitions.CloseBrowser.close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CRM"
+          },
+          {
+            "name": "@Activity1"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Login into the CRM Site",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 10805000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I navigate to Alchemy CRM site and login to the application",
+            "match": {
+              "location": "stepDefinitions.TC_01_CRM_Counting_Dashlets.i_navigate_to_alchemy_crm_site_and_login_to_the_application()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-22T09:45:16.111Z",
+        "line": 14,
+        "name": "Create leads using parameterization",
+        "description": "",
+        "id": "crm-site;create-leads-using-parameterization",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3995000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Navigate to Sales Leads CreateLead",
+            "match": {
+              "location": "stepDefinitions.TC_02_CRM_Create_Lead.navigate_to_sales_leads_create_lead()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10420000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Fill in the Create Lead Accounts with Salution \"Ms. \", First Name \"Ritu\", Last Name \"Simon\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Ms. ",
+                  "offset": 48
+                },
+                {
+                  "val": "Ritu",
+                  "offset": 67
+                },
+                {
+                  "val": "Simon",
+                  "offset": 85
+                }
+              ],
+              "location": "stepDefinitions.TC_02_CRM_Create_Lead.fill_in_the_create_lead_accounts_with_salution_first_name_last_name(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1059000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Click Save to Finish",
+            "match": {
+              "location": "stepDefinitions.TC_02_CRM_Create_Lead.click_save_to_finish()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 12308000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Navigate to View Leads page to see results with Salution \"Ms. \", First Name \"Ritu\", Last Name \"Simon\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Ms. ",
+                  "offset": 58
+                },
+                {
+                  "val": "Ritu",
+                  "offset": 77
+                },
+                {
+                  "val": "Simon",
+                  "offset": 95
+                }
+              ],
+              "location": "stepDefinitions.TC_02_CRM_Create_Lead.navigate_to_view_leads_page_to_see_results(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1676000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Close the Browser",
+            "match": {
+              "location": "stepDefinitions.CloseBrowser.close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CRM"
+          },
+          {
+            "name": "@Activity22"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Login into the CRM Site",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 11276000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I navigate to Alchemy CRM site and login to the application",
+            "match": {
+              "location": "stepDefinitions.TC_01_CRM_Counting_Dashlets.i_navigate_to_alchemy_crm_site_and_login_to_the_application()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-22T09:45:56.405Z",
+        "line": 22,
+        "name": "Schedule a meeting and invite members",
+        "description": "",
+        "id": "crm-site;schedule-a-meeting-and-invite-members",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4859000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Navigate to Activities Meetings ScheduleaMeeting",
+            "match": {
+              "location": "stepDefinitions.TC_03_CRM_Schedule_Meeting.navigate_to_activities_meetings_schedulea_meeting()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 79000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Enter the details of the meeting",
+            "match": {
+              "location": "stepDefinitions.TC_03_CRM_Schedule_Meeting.enter_the_details_of_the_meeting()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 13331000000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Search for members and add them to the meeting",
+            "match": {
+              "location": "stepDefinitions.TC_03_CRM_Schedule_Meeting.search_for_members_and_add_them_to_the_meeting(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "fname",
+                  "lname",
+                  "email"
+                ]
+              },
+              {
+                "cells": [
+                  "Chris",
+                  "Olliver",
+                  "chris@example.com"
+                ]
+              },
+              {
+                "cells": [
+                  "Jim",
+                  "Brennan",
+                  "jim@example.com"
+                ]
+              },
+              {
+                "cells": [
+                  "Max",
+                  "Jensen",
+                  "tom@example.com"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2230000000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Navigate to View Meetings page and confirm creation of the meeting",
+            "match": {
+              "location": "stepDefinitions.TC_03_CRM_Schedule_Meeting.navigate_to_view_meetings_page_and_confirm_creation_of_the_meeting()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1379000000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Close the Browser",
+            "match": {
+              "location": "stepDefinitions.CloseBrowser.close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CRM"
+          },
+          {
+            "name": "@Activity3"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Login into the CRM Site",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 10551000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I navigate to Alchemy CRM site and login to the application",
+            "match": {
+              "location": "stepDefinitions.TC_01_CRM_Counting_Dashlets.i_navigate_to_alchemy_crm_site_and_login_to_the_application()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-22T09:46:29.563Z",
+        "line": 44,
+        "name": "Creating a Product",
+        "description": "",
+        "id": "crm-site;creating-a-product;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3795000000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Navigate to All Products CreateProduct",
+            "match": {
+              "location": "stepDefinitions.TC_04_CRM_Create_Product.navigate_to_all_products_create_product()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 61000000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Enter Details of the Product \"toy\", \"5\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "toy",
+                  "offset": 30
+                },
+                {
+                  "val": "5",
+                  "offset": 37
+                }
+              ],
+              "location": "stepDefinitions.TC_04_CRM_Create_Product.enter_details_of_the_product(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1284000000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "Click Save",
+            "match": {
+              "location": "stepDefinitions.TC_04_CRM_Create_Product.click_save()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2062000000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "Navigated to View Products Page",
+            "match": {
+              "location": "stepDefinitions.TC_04_CRM_Create_Product.navigated_to_view_products_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 61000000,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "All Products should be listed \"toy\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "toy",
+                  "offset": 31
+                }
+              ],
+              "location": "stepDefinitions.TC_04_CRM_Create_Product.all_products_should_be_listed(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1384000000,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "Close the Browser",
+            "match": {
+              "location": "stepDefinitions.CloseBrowser.close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CRM"
+          },
+          {
+            "name": "@Activity4"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Login into the CRM Site",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 11783000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I navigate to Alchemy CRM site and login to the application",
+            "match": {
+              "location": "stepDefinitions.TC_01_CRM_Counting_Dashlets.i_navigate_to_alchemy_crm_site_and_login_to_the_application()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-22T09:46:48.780Z",
+        "line": 45,
+        "name": "Creating a Product",
+        "description": "",
+        "id": "crm-site;creating-a-product;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3524000000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Navigate to All Products CreateProduct",
+            "match": {
+              "location": "stepDefinitions.TC_04_CRM_Create_Product.navigate_to_all_products_create_product()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 115000000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Enter Details of the Product \"pen\", \"10\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "pen",
+                  "offset": 30
+                },
+                {
+                  "val": "10",
+                  "offset": 37
+                }
+              ],
+              "location": "stepDefinitions.TC_04_CRM_Create_Product.enter_details_of_the_product(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1426000000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "Click Save",
+            "match": {
+              "location": "stepDefinitions.TC_04_CRM_Create_Product.click_save()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2104000000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "Navigated to View Products Page",
+            "match": {
+              "location": "stepDefinitions.TC_04_CRM_Create_Product.navigated_to_view_products_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 44000000,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "All Products should be listed \"pen\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "pen",
+                  "offset": 31
+                }
+              ],
+              "location": "stepDefinitions.TC_04_CRM_Create_Product.all_products_should_be_listed(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1709000000,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "Close the Browser",
+            "match": {
+              "location": "stepDefinitions.CloseBrowser.close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CRM"
+          },
+          {
+            "name": "@Activity4"
+          }
+        ]
+      }
+    ],
+    "name": "CRM Site",
+    "description": "",
+    "id": "crm-site",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Features/CRM_Scenarios.feature",
+    "tags": [
+      {
+        "name": "@CRM",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Login into the HRM System",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8305000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I navigate to Alchemy HRM System and login to the application",
+            "match": {
+              "location": "stepDefinitions.TC_01_04_HRM_Create_Vacancy.i_navigate_to_alchemy_hrm_system_and_login_to_the_application()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-22T09:47:09.508Z",
+        "line": 8,
+        "name": "Creating a job vacancy",
+        "description": "",
+        "id": "hrm-system;creating-a-job-vacancy",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1637000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Navigate to Recruitment Page",
+            "match": {
+              "location": "stepDefinitions.TC_01_04_HRM_Create_Vacancy.navigate_to_recruitment_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 588000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Click on Vacancies Menu",
+            "match": {
+              "location": "stepDefinitions.TC_01_04_HRM_Create_Vacancy.click_on_vacancies_menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 65000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Vacancies Page should be displayed",
+            "match": {
+              "location": "stepDefinitions.TC_01_04_HRM_Create_Vacancy.vacancies_page_should_be_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 561000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Add Button is clicked",
+            "match": {
+              "location": "stepDefinitions.TC_01_04_HRM_Create_Vacancy.add_button_is_clicked()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1059000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Job Vacancy Form is filled and saved - job title \"DevOps Engineer\", vacancy name \"DevOps Consultant 1\", hiring manager \"Hello Tester\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "DevOps Engineer",
+                  "offset": 50
+                },
+                {
+                  "val": "DevOps Consultant 1",
+                  "offset": 82
+                },
+                {
+                  "val": "Hello Tester",
+                  "offset": 120
+                }
+              ],
+              "location": "stepDefinitions.TC_01_04_HRM_Create_Vacancy.job_vacancy_form_is_filled_and_saved(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2028000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Vacancy should be created - job title \"DevOps Engineer\", vacancy name \"DevOps Consultant 1\", hiring manager \"Hello Tester\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "DevOps Engineer",
+                  "offset": 39
+                },
+                {
+                  "val": "DevOps Consultant 1",
+                  "offset": 71
+                },
+                {
+                  "val": "Hello Tester",
+                  "offset": 109
+                }
+              ],
+              "location": "stepDefinitions.TC_01_04_HRM_Create_Vacancy.vacancy_should_be_created(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1698000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Close the Browser",
+            "match": {
+              "location": "stepDefinitions.CloseBrowser.close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@HRM"
+          },
+          {
+            "name": "@Activity1"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Login into the HRM System",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8457000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I navigate to Alchemy HRM System and login to the application",
+            "match": {
+              "location": "stepDefinitions.TC_01_04_HRM_Create_Vacancy.i_navigate_to_alchemy_hrm_system_and_login_to_the_application()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-22T09:47:25.458Z",
+        "line": 18,
+        "name": "Adding a candidate for recruitment",
+        "description": "",
+        "id": "hrm-system;adding-a-candidate-for-recruitment",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1558000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Navigate to Recruitment Page",
+            "match": {
+              "location": "stepDefinitions.TC_01_04_HRM_Create_Vacancy.navigate_to_recruitment_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 886000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Click on Add Button",
+            "match": {
+              "location": "stepDefinitions.TC_02_HRM_Add_Candidate_Recruitment.click_on_add_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 165000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Fill in the details of the candidate",
+            "match": {
+              "location": "stepDefinitions.TC_02_HRM_Add_Candidate_Recruitment.fill_in_the_details_of_the_candidate()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 43000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Upload a resume to the form",
+            "match": {
+              "location": "stepDefinitions.TC_02_HRM_Add_Candidate_Recruitment.upload_a_resume_to_the_form()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 631000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Save Button is clicked",
+            "match": {
+              "location": "stepDefinitions.TC_02_HRM_Add_Candidate_Recruitment.save_button_is_clicked()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1611000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Confirm Candidate Entry in Recruitments Page",
+            "match": {
+              "location": "stepDefinitions.TC_02_HRM_Add_Candidate_Recruitment.confirm_candidate_entry_in_recruitments_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1607000000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Close the Browser",
+            "match": {
+              "location": "stepDefinitions.CloseBrowser.close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@HRM"
+          },
+          {
+            "name": "@Activity2"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Login into the HRM System",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8371000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I navigate to Alchemy HRM System and login to the application",
+            "match": {
+              "location": "stepDefinitions.TC_01_04_HRM_Create_Vacancy.i_navigate_to_alchemy_hrm_system_and_login_to_the_application()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-22T09:47:40.460Z",
+        "line": 37,
+        "name": "Add multiple employees",
+        "description": "",
+        "id": "hrm-system;add-multiple-employees;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1892000000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Click on the PIM option in the menu",
+            "match": {
+              "location": "stepDefinitions.TC_03_HRM_Add_Employees.click_on_the_pim_option_in_the_menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 445000000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Click on Add Employee Button",
+            "match": {
+              "location": "stepDefinitions.TC_03_HRM_Add_Employees.click_on_add_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1656000000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "All required fields are filled in the Add Employee form \"Ritu\", \"Simon\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Ritu",
+                  "offset": 57
+                },
+                {
+                  "val": "Simon",
+                  "offset": 65
+                }
+              ],
+              "location": "stepDefinitions.TC_03_HRM_Add_Employees.all_required_fields_are_filled_in_the_add_employee_form(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2415000000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Verify Employee is created \"Ritu\", \"Simon\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Ritu\"",
+                  "offset": 27
+                },
+                {
+                  "val": "\"Simon\"",
+                  "offset": 35
+                }
+              ],
+              "location": "stepDefinitions.TC_03_HRM_Add_Employees.verify_employee_is_created(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1541000000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Close the Browser",
+            "match": {
+              "location": "stepDefinitions.CloseBrowser.close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@HRM"
+          },
+          {
+            "name": "@Activity3"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Login into the HRM System",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8205000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I navigate to Alchemy HRM System and login to the application",
+            "match": {
+              "location": "stepDefinitions.TC_01_04_HRM_Create_Vacancy.i_navigate_to_alchemy_hrm_system_and_login_to_the_application()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-22T09:47:56.782Z",
+        "line": 38,
+        "name": "Add multiple employees",
+        "description": "",
+        "id": "hrm-system;add-multiple-employees;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1720000000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Click on the PIM option in the menu",
+            "match": {
+              "location": "stepDefinitions.TC_03_HRM_Add_Employees.click_on_the_pim_option_in_the_menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 520000000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Click on Add Employee Button",
+            "match": {
+              "location": "stepDefinitions.TC_03_HRM_Add_Employees.click_on_add_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1644000000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "All required fields are filled in the Add Employee form \"Brown\", \"Smith\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Brown",
+                  "offset": 57
+                },
+                {
+                  "val": "Smith",
+                  "offset": 66
+                }
+              ],
+              "location": "stepDefinitions.TC_03_HRM_Add_Employees.all_required_fields_are_filled_in_the_add_employee_form(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2430000000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Verify Employee is created \"Brown\", \"Smith\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Brown\"",
+                  "offset": 27
+                },
+                {
+                  "val": "\"Smith\"",
+                  "offset": 36
+                }
+              ],
+              "location": "stepDefinitions.TC_03_HRM_Add_Employees.verify_employee_is_created(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1627000000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Close the Browser",
+            "match": {
+              "location": "stepDefinitions.CloseBrowser.close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@HRM"
+          },
+          {
+            "name": "@Activity3"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Login into the HRM System",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8823000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I navigate to Alchemy HRM System and login to the application",
+            "match": {
+              "location": "stepDefinitions.TC_01_04_HRM_Create_Vacancy.i_navigate_to_alchemy_hrm_system_and_login_to_the_application()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-22T09:48:12.931Z",
+        "line": 53,
+        "name": "Creating multiple vacancies",
+        "description": "",
+        "id": "hrm-system;creating-multiple-vacancies;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1555000000,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "Navigate to Recruitment Page",
+            "match": {
+              "location": "stepDefinitions.TC_01_04_HRM_Create_Vacancy.navigate_to_recruitment_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 814000000,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "Click on Vacancies Menu",
+            "match": {
+              "location": "stepDefinitions.TC_01_04_HRM_Create_Vacancy.click_on_vacancies_menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 81000000,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "Vacancies Page should be displayed",
+            "match": {
+              "location": "stepDefinitions.TC_01_04_HRM_Create_Vacancy.vacancies_page_should_be_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 448000000,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "Add Button is clicked",
+            "match": {
+              "location": "stepDefinitions.TC_01_04_HRM_Create_Vacancy.add_button_is_clicked()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1153000000,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "Job Vacancy Form is filled and saved - job title \"DevOps Engineer\", vacancy name \"DevOps Consultant 11\", hiring manager \"Hello Tester\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "DevOps Engineer",
+                  "offset": 50
+                },
+                {
+                  "val": "DevOps Consultant 11",
+                  "offset": 82
+                },
+                {
+                  "val": "Hello Tester",
+                  "offset": 121
+                }
+              ],
+              "location": "stepDefinitions.TC_01_04_HRM_Create_Vacancy.job_vacancy_form_is_filled_and_saved(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2142000000,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "Vacancy should be created - job title \"DevOps Engineer\", vacancy name \"DevOps Consultant 11\", hiring manager \"Hello Tester\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "DevOps Engineer",
+                  "offset": 39
+                },
+                {
+                  "val": "DevOps Consultant 11",
+                  "offset": 71
+                },
+                {
+                  "val": "Hello Tester",
+                  "offset": 110
+                }
+              ],
+              "location": "stepDefinitions.TC_01_04_HRM_Create_Vacancy.vacancy_should_be_created(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1698000000,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "Close the Browser",
+            "match": {
+              "location": "stepDefinitions.CloseBrowser.close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@HRM"
+          },
+          {
+            "name": "@Activity4"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Login into the HRM System",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8325000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I navigate to Alchemy HRM System and login to the application",
+            "match": {
+              "location": "stepDefinitions.TC_01_04_HRM_Create_Vacancy.i_navigate_to_alchemy_hrm_system_and_login_to_the_application()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-22T09:48:29.649Z",
+        "line": 54,
+        "name": "Creating multiple vacancies",
+        "description": "",
+        "id": "hrm-system;creating-multiple-vacancies;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1907000000,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "Navigate to Recruitment Page",
+            "match": {
+              "location": "stepDefinitions.TC_01_04_HRM_Create_Vacancy.navigate_to_recruitment_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 641000000,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "Click on Vacancies Menu",
+            "match": {
+              "location": "stepDefinitions.TC_01_04_HRM_Create_Vacancy.click_on_vacancies_menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 78000000,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "Vacancies Page should be displayed",
+            "match": {
+              "location": "stepDefinitions.TC_01_04_HRM_Create_Vacancy.vacancies_page_should_be_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 543000000,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "Add Button is clicked",
+            "match": {
+              "location": "stepDefinitions.TC_01_04_HRM_Create_Vacancy.add_button_is_clicked()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1029000000,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "Job Vacancy Form is filled and saved - job title \"Android Developer\", vacancy name \"Development 11\", hiring manager \"Hello Tester\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Android Developer",
+                  "offset": 50
+                },
+                {
+                  "val": "Development 11",
+                  "offset": 84
+                },
+                {
+                  "val": "Hello Tester",
+                  "offset": 117
+                }
+              ],
+              "location": "stepDefinitions.TC_01_04_HRM_Create_Vacancy.job_vacancy_form_is_filled_and_saved(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2084000000,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "Vacancy should be created - job title \"Android Developer\", vacancy name \"Development 11\", hiring manager \"Hello Tester\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Android Developer",
+                  "offset": 39
+                },
+                {
+                  "val": "Development 11",
+                  "offset": 73
+                },
+                {
+                  "val": "Hello Tester",
+                  "offset": 106
+                }
+              ],
+              "location": "stepDefinitions.TC_01_04_HRM_Create_Vacancy.vacancy_should_be_created(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1608000000,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "Close the Browser",
+            "match": {
+              "location": "stepDefinitions.CloseBrowser.close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@HRM"
+          },
+          {
+            "name": "@Activity4"
+          }
+        ]
+      }
+    ],
+    "name": "HRM System",
+    "description": "",
+    "id": "hrm-system",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Features/HRM_Scenarios.feature",
+    "tags": [
+      {
+        "name": "@HRM",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-01-22T09:48:45.870Z",
+        "line": 5,
+        "name": "Create a new user",
+        "description": "",
+        "id": "job-board-system;create-a-new-user",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9802000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I navigate to Alchemy Jobs admin site and log in",
+            "match": {
+              "location": "stepDefinitions.TC_01_Job_Board_AddNewUser.i_navigate_to_alchemy_jobs_admin_site_and_log_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1494000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click on Users menu in the left hand menu",
+            "match": {
+              "location": "stepDefinitions.TC_01_Job_Board_AddNewUser.click_on_users_menu_in_the_left_hand_menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 906000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click on Add New Button",
+            "match": {
+              "location": "stepDefinitions.TC_01_Job_Board_AddNewUser.click_on_add_new_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 22000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Add New User form should be displayed",
+            "match": {
+              "location": "stepDefinitions.TC_01_Job_Board_AddNewUser.add_new_user_form_should_be_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 725000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Fill in the neccessary details",
+            "match": {
+              "location": "stepDefinitions.TC_01_Job_Board_AddNewUser.fill_in_the_neccessary_details()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6367000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Click on Add New User Button",
+            "match": {
+              "location": "stepDefinitions.TC_01_Job_Board_AddNewUser.click_on_add_new_user_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3606000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Verify the User is created",
+            "match": {
+              "location": "stepDefinitions.TC_01_Job_Board_AddNewUser.verify_the_user_is_created()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1608000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Close the Browser",
+            "match": {
+              "location": "stepDefinitions.CloseBrowser.close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Job_Board"
+          },
+          {
+            "name": "@Activity1"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-22T09:49:10.418Z",
+        "line": 17,
+        "name": "Searching for jobs using XPath",
+        "description": "",
+        "id": "job-board-system;searching-for-jobs-using-xpath",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7756000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I navigate to Alchemy Jobs site",
+            "match": {
+              "location": "stepDefinitions.TC_02_Job_Board_Search.i_navigate_to_alchemy_jobs_site()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 752000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Navigate to Jobs Page",
+            "match": {
+              "location": "stepDefinitions.TC_02_Job_Board_Search.navigate_to_jobs_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 61000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Enter Keyword",
+            "match": {
+              "location": "stepDefinitions.TC_02_Job_Board_Search.enter_keyword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1521000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Change Job Type to show only Full Time jobs",
+            "match": {
+              "location": "stepDefinitions.TC_02_Job_Board_Search.change_job_type_to_show_only_full_time_jobs()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 278000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Click on Search Jobs",
+            "match": {
+              "location": "stepDefinitions.TC_02_Job_Board_Search.click_on_search_jobs()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5056000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Verify Jobs are listed",
+            "match": {
+              "location": "stepDefinitions.TC_02_Job_Board_Search.verify_jobs_are_listed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 616000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Print the title of the Job listing",
+            "match": {
+              "location": "stepDefinitions.TC_02_Job_Board_Search.print_the_title_of_the_job_listing()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 276000000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Click on Apply for Job button",
+            "match": {
+              "location": "stepDefinitions.TC_02_Job_Board_Search.click_on_apply_for_job_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1443000000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Close the Browser",
+            "match": {
+              "location": "stepDefinitions.CloseBrowser.close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Job_Board"
+          },
+          {
+            "name": "@Activity2"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-22T09:49:28.179Z",
+        "line": 29,
+        "name": "Posting a job using parameterization",
+        "description": "",
+        "id": "job-board-system;posting-a-job-using-parameterization",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7417000000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I navigate to Alchemy Jobs site",
+            "match": {
+              "location": "stepDefinitions.TC_02_Job_Board_Search.i_navigate_to_alchemy_jobs_site()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2054000000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Navigate to Post Jobs Page",
+            "match": {
+              "location": "stepDefinitions.TC_03_04_Job_Board_PostJob.navigate_to_post_jobs_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 579000000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Enter Email \"test0126@test.com\", Job Title \"Test Lead\", Job Type \"Full Time\", Description \" Manage Job Description\", Company Name \"IBM\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test0126@test.com",
+                  "offset": 13
+                },
+                {
+                  "val": "Test Lead",
+                  "offset": 44
+                },
+                {
+                  "val": "Full Time",
+                  "offset": 66
+                },
+                {
+                  "val": " Manage Job Description",
+                  "offset": 91
+                },
+                {
+                  "val": "IBM",
+                  "offset": 131
+                }
+              ],
+              "location": "stepDefinitions.TC_03_04_Job_Board_PostJob.enter_email_job_title_job_type_description_company_name(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1844000000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Click on Preview and Post",
+            "match": {
+              "location": "stepDefinitions.TC_03_04_Job_Board_PostJob.click_on_save_draft()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 624000000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Verify in the Job Listing \"Test Lead\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Test Lead",
+                  "offset": 27
+                }
+              ],
+              "location": "stepDefinitions.TC_03_04_Job_Board_PostJob.verify_job_listing(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1509000000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Close the Browser",
+            "match": {
+              "location": "stepDefinitions.CloseBrowser.close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Job_Board"
+          },
+          {
+            "name": "@Activity3"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-22T09:49:42.211Z",
+        "line": 49,
+        "name": "Using Examples table to post a job",
+        "description": "",
+        "id": "job-board-system;using-examples-table-to-post-a-job;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7856000000,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "I navigate to Alchemy Jobs site",
+            "match": {
+              "location": "stepDefinitions.TC_02_Job_Board_Search.i_navigate_to_alchemy_jobs_site()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2173000000,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "Navigate to Post Jobs Page",
+            "match": {
+              "location": "stepDefinitions.TC_03_04_Job_Board_PostJob.navigate_to_post_jobs_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 684000000,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "Enter Email \"test1123@test.com\", Job Title \"Tester\", Job Type \"Full Time\", Description \" Full Time Tester \", Company Name \" ABC \"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test1123@test.com",
+                  "offset": 13
+                },
+                {
+                  "val": "Tester",
+                  "offset": 44
+                },
+                {
+                  "val": "Full Time",
+                  "offset": 63
+                },
+                {
+                  "val": " Full Time Tester ",
+                  "offset": 88
+                },
+                {
+                  "val": " ABC ",
+                  "offset": 123
+                }
+              ],
+              "location": "stepDefinitions.TC_03_04_Job_Board_PostJob.enter_email_job_title_job_type_description_company_name(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1949000000,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "Click on Preview and Post",
+            "match": {
+              "location": "stepDefinitions.TC_03_04_Job_Board_PostJob.click_on_save_draft()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 577000000,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "Verify in the Job Listing \"Tester\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Tester",
+                  "offset": 27
+                }
+              ],
+              "location": "stepDefinitions.TC_03_04_Job_Board_PostJob.verify_job_listing(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1661000000,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "Close the Browser",
+            "match": {
+              "location": "stepDefinitions.CloseBrowser.close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Job_Board"
+          },
+          {
+            "name": "@Activity4"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-22T09:49:57.116Z",
+        "line": 50,
+        "name": "Using Examples table to post a job",
+        "description": "",
+        "id": "job-board-system;using-examples-table-to-post-a-job;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8395000000,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "I navigate to Alchemy Jobs site",
+            "match": {
+              "location": "stepDefinitions.TC_02_Job_Board_Search.i_navigate_to_alchemy_jobs_site()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1783000000,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "Navigate to Post Jobs Page",
+            "match": {
+              "location": "stepDefinitions.TC_03_04_Job_Board_PostJob.navigate_to_post_jobs_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 749000000,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "Enter Email \"test1124@test.com\", Job Title \"Tester\", Job Type \"Internship\", Description \" Internship Tester \", Company Name \" ABC \"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test1124@test.com",
+                  "offset": 13
+                },
+                {
+                  "val": "Tester",
+                  "offset": 44
+                },
+                {
+                  "val": "Internship",
+                  "offset": 63
+                },
+                {
+                  "val": " Internship Tester ",
+                  "offset": 89
+                },
+                {
+                  "val": " ABC ",
+                  "offset": 125
+                }
+              ],
+              "location": "stepDefinitions.TC_03_04_Job_Board_PostJob.enter_email_job_title_job_type_description_company_name(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1802000000,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "Click on Preview and Post",
+            "match": {
+              "location": "stepDefinitions.TC_03_04_Job_Board_PostJob.click_on_save_draft()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 693000000,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "Verify in the Job Listing \"Tester\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Tester",
+                  "offset": 27
+                }
+              ],
+              "location": "stepDefinitions.TC_03_04_Job_Board_PostJob.verify_job_listing(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1662000000,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "Close the Browser",
+            "match": {
+              "location": "stepDefinitions.CloseBrowser.close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Job_Board"
+          },
+          {
+            "name": "@Activity4"
+          }
+        ]
+      }
+    ],
+    "name": "Job Board System",
+    "description": "",
+    "id": "job-board-system",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Features/Job_Board_Scenarios.feature",
+    "tags": [
+      {
+        "name": "@Job_Board",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
