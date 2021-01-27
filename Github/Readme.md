@@ -1,1 +1,1 @@
-Created a Readme for GitHub activity
+Trying to make conflict--Made changes to Readme for GitHub activity
